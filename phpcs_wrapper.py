@@ -1,5 +1,5 @@
 # Run php code sniffer, but ignore chosen warnings (for use on Linux)
-# Author: Dashell Higgins (http://github.com/DashellHiggins)
+# Author: Dashell Higgins ( http://github.com/DashellHiggins )
 #!/usr/bin/python
 import os
 import sys
