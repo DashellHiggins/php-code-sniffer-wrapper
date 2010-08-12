@@ -1,0 +1,4 @@
+phpcs_wrapper.py
+Basic:  Run php code sniffer, but ignore chosen warnings (for use on Linux)
+Author: Dashell Higgins ( http://github.com/DashellHiggins )
+Notes:  PHP code wrapper is a short python script that checks PHP  code on Linux for certain standards of code cleanliness. It uses phpcs (http://pear.php.net/package/PHP_CodeSniffer/redirected) as a backend, but will filter out many of the less useful comments. Many of the comments that can be ignored are already specified in the code, and those not set to “hide” are recommended to be left on because they represent important stylistic errors. More messages can be added.
